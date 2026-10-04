@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>RapidAcez Badminton &amp; Fitness Academy | Badminton Courts in Upperpally, Hyderabad</title>
+<meta name="description" content="Play and train at RapidAcez Badminton &amp; Fitness Academy in Upperpally, Hyderabad. Quality courts, coaching for all ages, and online court booking. Rated 4.4 on Google.">
+<meta name="theme-color" content="#071a3a">
+<meta property="og:title" content="RapidAcez Badminton &amp; Fitness Academy | Upperpally">
+<meta property="og:description" content="Own the court. Badminton courts, coaching and fitness in Upperpally, Hyderabad.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,700;12..96,800&family=Figtree:wght@400;500;700&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"SportsActivityLocation","name":"RapidAcez Badminton & Fitness Academy","telephone":"09949570989",
+"address":{"@type":"PostalAddress","streetAddress":"Pillar No 177, Road, beside GPR Swimming Pool, Sri Sai Janachithanya Colony, AG Colony","addressLocality":"Upperpally","addressRegion":"Telangana","postalCode":"500048","addressCountry":"IN"},
+"aggregateRating":{"@type":"AggregateRating","ratingValue":"4.4","reviewCount":"627","bestRating":"5"},
+"sameAs":["https://www.facebook.com/rapidacezbadminton"]}
+</script>
+<style>
+:root{--bg:#071a3a;--deep:#04112a;--panel:#0d2a5c;--line:rgba(255,255,255,.16);--text:#f4f7ff;--mute:#9fb0cf;--ace:#ffe14d;
+  --disp:'Bricolage Grotesque','Arial Black',Impact,sans-serif;--body:'Figtree',system-ui,-apple-system,'Segoe UI',Roboto,sans-serif}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:76px}
+body{margin:0;background:var(--bg);color:var(--text);font:400 1rem/1.65 var(--body);-webkit-font-smoothing:antialiased;overflow-x:hidden}
+a{color:inherit;text-decoration:none}p{margin:0}
+h1,h2,h3{font-family:var(--disp);font-weight:800;line-height:.95;margin:0;letter-spacing:-.025em}
+h2{font-size:clamp(2.5rem,6.4vw,5rem)}
+:focus-visible{outline:2px solid var(--ace);outline-offset:3px}
+.wrap{width:min(1180px,100% - 2.5rem);margin-inline:auto}
+section{padding:clamp(4.5rem,9vw,8rem) 0}
+.lead{color:var(--mute);max-width:50ch;margin-top:1rem;font-size:1.05rem}
+.ace{color:var(--ace)}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:.5rem;font:700 .95rem var(--body);padding:1rem 1.8rem;border-radius:999px;border:2px solid var(--line);background:transparent;color:var(--text);cursor:pointer;transition:transform .25s,background .25s,color .25s,border-color .25s}
+.btn:hover{border-color:var(--ace);color:var(--ace);transform:translateY(-2px)}
+.btn.fill{background:var(--ace);border-color:var(--ace);color:#071a3a}
+.btn.fill:hover{background:#fff;border-color:#fff;color:#071a3a}
+.btn.sm{padding:.6rem 1.2rem;font-size:.85rem}
+
+header{position:fixed;inset:0 0 auto;z-index:50;padding:1rem 0;transition:background .3s,padding .3s,border-color .3s;border-bottom:1px solid transparent}
+header.scrolled{background:rgba(7,26,58,.88);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);padding:.5rem 0;border-color:var(--line)}
+.nav{display:flex;align-items:center;justify-content:space-between}
+.logo{font:800 1.25rem/1 var(--disp);letter-spacing:-.02em;display:flex;align-items:center;gap:.6rem}
+.logo svg{color:var(--ace)}
+.logo small{display:block;font:500 .62rem var(--body);letter-spacing:.14em;color:var(--mute);margin-top:.2rem}
+.links{display:flex;align-items:center;gap:1.8rem;list-style:none;margin:0;padding:0}
+.links a:not(.btn){font-size:.9rem;font-weight:500;color:#c9d6ee;padding:.3rem 0;position:relative;transition:color .2s}
+.links a:not(.btn)::before{content:"";position:absolute;left:50%;bottom:-6px;width:5px;height:5px;border-radius:50%;background:var(--ace);transform:translateX(-50%) scale(0);transition:transform .25s}
+.links a.active,.links a:not(.btn):hover{color:var(--text)}
+.links a.active::before,.links a:not(.btn):hover::before{transform:translateX(-50%) scale(1)}
+.burger{display:none;width:44px;height:44px;border:0;background:none;cursor:pointer;position:relative;z-index:60}
+.burger span{position:absolute;left:10px;right:10px;height:2px;background:var(--text);transition:transform .3s,opacity .3s,top .3s}
+.burger span:nth-child(1){top:15px}.burger span:nth-child(2){top:21px}.burger span:nth-child(3){top:27px}
+.burger[aria-expanded=true] span:nth-child(1){top:21px;transform:rotate(45deg)}
+.burger[aria-expanded=true] span:nth-child(2){opacity:0}
+.burger[aria-expanded=true] span:nth-child(3){top:21px;transform:rotate(-45deg)}
+
+/* Hero with court diagram */
+.hero{min-height:100svh;display:flex;align-items:center;padding:7rem 0 6rem;position:relative;overflow:hidden;
+  background:var(--img-hero,none) center/cover,radial-gradient(60% 70% at 85% 40%,rgba(255,225,77,.12),transparent 70%),linear-gradient(180deg,var(--bg),var(--deep))}
+.hero-in{display:grid;grid-template-columns:1.25fr 1fr;gap:2rem;align-items:center}
+.eyebrow{display:inline-flex;align-items:center;gap:.6rem;font-size:.85rem;font-weight:700;letter-spacing:.12em;color:var(--ace);margin-bottom:1.4rem}
+.eyebrow::before{content:"";width:34px;height:2px;background:var(--ace)}
+.hero h1{font-size:clamp(3.8rem,11.5vw,9.5rem);line-height:.88}
+.hero h1 span{display:block;overflow:hidden;padding-bottom:.06em}
+.hero h1 i{display:block;font-style:normal;transform:translateY(105%);animation:up .9s cubic-bezier(.2,.8,.2,1) forwards}
+.hero h1 span:nth-child(2) i{animation-delay:.12s;color:var(--ace)}
+.sub{margin-top:1.5rem;max-width:44ch;font-size:1.1rem;color:#d3def2;opacity:0;animation:fade .8s .6s forwards}
+.cta{display:flex;flex-wrap:wrap;gap:.9rem;margin-top:2rem;opacity:0;animation:fade .8s .8s forwards}
+.court{position:relative;justify-self:center;width:min(420px,78vw);aspect-ratio:3/4;transform:perspective(900px) rotateX(14deg) rotateZ(-5deg);}
+.court svg{width:100%;height:100%;overflow:visible}
+.court .ln{stroke:#fff;stroke-opacity:.8;stroke-width:2.5;fill:none;stroke-dasharray:1400;stroke-dashoffset:1400;animation:draw 2.2s .3s ease forwards}
+.court .fl{fill:rgba(255,255,255,.05)}
+.shuttle{position:absolute;left:46%;top:24%;width:54px;color:var(--ace);animation:fly 4.5s ease-in-out infinite;filter:drop-shadow(0 8px 14px rgba(0,0,0,.4))}
+@keyframes up{to{transform:none}}@keyframes fade{to{opacity:1}}@keyframes draw{to{stroke-dashoffset:0}}
+@keyframes fly{0%,100%{transform:translate(-40px,60px) rotate(-30deg)}50%{transform:translate(50px,-40px) rotate(20deg)}}
+
+/* Stats */
+.statbar{padding:0;margin-top:-3.2rem;position:relative;z-index:2}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);background:var(--ace);color:#071a3a;border-radius:20px;overflow:hidden}
+.stat{padding:1.6rem 1.2rem;text-align:center}
+.stat+.stat{border-left:2px solid rgba(7,26,58,.15)}
+.stat b{display:block;font:800 clamp(2.4rem,5.5vw,4rem)/1 var(--disp);letter-spacing:-.03em}
+.stat span{font-size:.88rem;font-weight:500}
+
+/* About */
+.split{display:grid;grid-template-columns:1fr 1fr;gap:clamp(2rem,6vw,5rem);align-items:center}
+.photo{aspect-ratio:4/5;border-radius:28px;position:relative;overflow:hidden;border:1px solid var(--line);
+  background:var(--img-about,none) center/cover,linear-gradient(160deg,var(--panel),var(--deep))}
+.photo svg{position:absolute;inset:0;width:100%;height:100%}
+.ticks{list-style:none;padding:0;margin:1.6rem 0 2rem;display:grid;gap:.8rem}
+.ticks li{padding-left:2rem;position:relative}
+.ticks li::before{content:"";position:absolute;left:0;top:.2rem;width:1.15rem;height:1.15rem;border-radius:50%;background:var(--ace);clip-path:none;box-shadow:inset 0 0 0 4px var(--bg),0 0 0 2px var(--ace)}
+
+/* Offerings: tall numbered panels */
+.alt{background:var(--deep)}
+.panels{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem;margin-top:3rem}
+.panel{border:1px solid var(--line);border-radius:24px;padding:2rem;min-height:380px;display:flex;flex-direction:column;justify-content:space-between;position:relative;overflow:hidden;background:linear-gradient(180deg,rgba(13,42,92,.7),rgba(13,42,92,.2));transition:transform .35s,border-color .35s}
+.panel::after{content:"";position:absolute;right:-60px;bottom:-60px;width:200px;height:200px;border-radius:50%;border:2px solid var(--ace);opacity:0;transform:scale(.6);transition:opacity .4s,transform .4s}
+.panel:hover{transform:translateY(-8px);border-color:var(--ace)}
+.panel:hover::after{opacity:.35;transform:scale(1)}
+.num{font:800 5rem/1 var(--disp);color:transparent;-webkit-text-stroke:1.5px var(--ace)}
+.panel h3{font-size:2.2rem;margin-bottom:.7rem}
+.panel p{color:var(--mute)}
+.fine{margin-top:1.3rem;font-size:.82rem;color:var(--mute)}
+.book{margin-top:2.5rem;display:flex;flex-wrap:wrap;gap:1.2rem;align-items:center;justify-content:space-between;border:2px dashed var(--ace);border-radius:24px;padding:1.6rem 2rem}
+.book h3{font-size:clamp(1.7rem,3.6vw,2.6rem)}
+.book p{color:var(--mute);margin-top:.3rem}
+
+/* Why: sticky heading + list */
+.why-grid{display:grid;grid-template-columns:1fr 1.4fr;gap:clamp(2rem,6vw,5rem);align-items:start}
+.sticky{position:sticky;top:110px}
+.list{display:grid}
+.item{display:grid;grid-template-columns:60px 1fr;gap:1rem;padding:1.6rem 0;border-top:1px solid var(--line)}
+.item:last-child{border-bottom:1px solid var(--line)}
+.item b{font:800 1.4rem var(--disp);color:var(--ace)}
+.item h3{font-size:1.7rem;margin-bottom:.3rem}
+.item p{color:var(--mute)}
+
+/* Manifesto */
+.big{text-align:center;padding:clamp(5rem,12vw,10rem) 0;position:relative;overflow:hidden;background:var(--img-cta,none) center/cover,var(--panel)}
+.big::before{content:"";position:absolute;inset:0;background:repeating-linear-gradient(0deg,transparent 0 79px,rgba(255,255,255,.07) 79px 81px)}
+.big .wrap{position:relative}
+.big h2{font-size:clamp(3rem,10vw,8.5rem);line-height:.9}
+.big h2 + h2{color:var(--ace);margin:.2rem 0 2.2rem}
+
+/* Reviews masonry */
+.rev-top{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:flex-end;gap:1.5rem}
+.rate{display:flex;align-items:baseline;gap:.8rem}
+.rate b{font:800 5rem/1 var(--disp);color:var(--ace);letter-spacing:-.04em}
+.rate span{color:var(--mute)}
+.mason{columns:3 300px;column-gap:1rem;margin-top:2.5rem}
+.rev{break-inside:avoid;margin-bottom:1rem;background:var(--panel);border:1px solid var(--line);border-radius:20px;padding:1.6rem;transition:transform .3s,border-color .3s}
+.rev:hover{transform:translateY(-4px);border-color:var(--ace)}
+.rev p{color:#e3ebfa;font-size:.98rem;margin-bottom:1.3rem}
+.who{display:flex;align-items:center;gap:.8rem;font-weight:700;font-size:.92rem}
+.who small{display:block;font-weight:400;color:var(--mute);font-size:.78rem}
+.av{flex:none;width:40px;height:40px;border-radius:50%;background:var(--ace);color:#071a3a;display:grid;place-items:center;font:800 1.1rem var(--disp)}
+
+/* Location */
+.loc{display:grid;grid-template-columns:1fr 1.1fr;gap:1.5rem;margin-top:3rem}
+.box{border:1px solid var(--line);border-radius:24px;padding:2rem;background:var(--panel)}
+.box h3{font-size:2.1rem}
+.addr{font-style:normal;margin:1.2rem 0;line-height:1.8;color:#dbe5f7}
+.btns{display:flex;flex-wrap:wrap;gap:.8rem;margin-top:1.4rem}
+.map{border-radius:24px;overflow:hidden;border:1px solid var(--line);min-height:380px}
+.map iframe{width:100%;height:100%;min-height:380px;border:0;filter:invert(.9) hue-rotate(180deg) saturate(.7)}
+
+.final{text-align:center;background:var(--ace);color:#071a3a}
+.final h2{font-size:clamp(3.2rem,10vw,8.5rem)}
+.final .lead{color:#071a3a;margin-inline:auto;font-weight:500}
+.final .cta{justify-content:center;opacity:1;animation:none}
+.final .btn{border-color:#071a3a;color:#071a3a}
+.final .btn:hover{background:#071a3a;color:var(--ace)}
+.final .btn.fill{background:#071a3a;color:var(--text)}
+.final .btn.fill:hover{background:#fff;color:#071a3a;border-color:#fff}
+footer{background:var(--deep);padding:4rem 0 7rem;border-top:1px solid var(--line)}
+.fg{display:grid;grid-template-columns:1.3fr 1fr 1.3fr;gap:2.5rem}
+footer h4{font:700 .85rem var(--body);letter-spacing:.1em;margin:0 0 1rem}
+footer ul{list-style:none;padding:0;margin:0;display:grid;gap:.5rem}
+footer ul,footer p,footer address{color:var(--mute);font-size:.95rem;font-style:normal}
+footer a:hover{color:var(--ace)}
+.soc{display:inline-flex;width:42px;height:42px;border:1px solid var(--line);border-radius:50%;align-items:center;justify-content:center;margin-top:1rem;transition:border-color .2s,color .2s}
+.soc:hover{border-color:var(--ace);color:var(--ace)}
+.copy{margin-top:3rem;padding-top:1.5rem;border-top:1px solid var(--line);font-size:.85rem;color:var(--mute)}
+.bar{display:none}
+
+.rv{opacity:0;transform:translateY(22px);transition:opacity .7s,transform .7s cubic-bezier(.2,.8,.2,1)}
+.rv.in{opacity:1;transform:none}.d1{transition-delay:.1s}.d2{transition-delay:.2s}
+
+@media (max-width:900px){
+  .hero-in,.split,.loc,.fg,.why-grid{grid-template-columns:1fr}
+  .court{width:min(300px,70vw);justify-self:start;margin-top:1rem}
+  .panels{grid-template-columns:1fr}.panel{min-height:240px}
+  .sticky{position:static}
+}
+@media (max-width:760px){
+  .burger{display:block}
+  .links{position:fixed;inset:0;flex-direction:column;justify-content:center;gap:1.4rem;background:rgba(4,17,42,.98);opacity:0;visibility:hidden;transition:opacity .3s,visibility .3s;z-index:55}
+  .links.open{opacity:1;visibility:visible}
+  .links a:not(.btn){font:800 2.4rem var(--disp);letter-spacing:-.02em}
+  .cta .btn,.btns .btn{flex:1 1 100%}
+  .stat{padding:1.2rem .4rem}.stat span{font-size:.75rem}
+  .book{padding:1.4rem}.book .btn{width:100%}
+  .bar{display:grid;grid-template-columns:1fr 1fr;gap:.6rem;position:fixed;left:0;right:0;bottom:0;z-index:45;padding:.7rem 1rem calc(.7rem + env(safe-area-inset-bottom,0px));background:rgba(4,17,42,.94);backdrop-filter:blur(12px);border-top:1px solid var(--line)}
+  .bar .btn{padding:.85rem .4rem}
+}
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  *,*::before,*::after{animation-duration:.01ms!important;animation-delay:0s!important;transition-duration:.01ms!important}
+  .rv{opacity:1;transform:none}.hero h1 i{transform:none}.sub,.cta{opacity:1}.court .ln{stroke-dashoffset:0}
+}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap nav">
+    <a href="#home" class="logo" aria-label="RapidAcez Badminton and Fitness Academy home">
+      <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l2.2 6.5L12 22 9.8 8.5z"/><path d="M6 5l3.8 3.5L12 22 7 9zM18 5l-3.8 3.5L12 22l5-13z" opacity=".55"/></svg>
+      <span>RapidAcez<small>BADMINTON &amp; FITNESS ACADEMY</small></span></a>
+    <button class="burger" aria-label="Toggle menu" aria-expanded="false" aria-controls="menu"><span></span><span></span><span></span></button>
+    <ul class="links" id="menu">
+      <li><a href="#home">Home</a></li><li><a href="#about">About</a></li><li><a href="#programs">Play &amp; Train</a></li>
+      <li><a href="#why">Why RapidAcez</a></li><li><a href="#reviews">Reviews</a></li><li><a href="#contact">Contact</a></li>
+      <li><a href="https://www.district.in/play/rapidacez-badminton-fitness-academy-formerly-known-as-kayns-rapidacez-badminton-fitness-academy-formerly-known-as-kayns-upperpally-slots-booking" target="_blank" rel="noopener" class="btn fill sm">BOOK A COURT</a></li>
+    </ul>
+  </div>
+</header>
+
+<main>
+<section class="hero" id="home">
+  <div class="wrap hero-in">
+    <div>
+      <p class="eyebrow">BADMINTON &amp; FITNESS · UPPERPALLY, HYDERABAD</p>
+      <h1><span><i>Own the</i></span><span><i>court.</i></span></h1>
+      <p class="sub">Quality courts, coaching for every age, and a warm-up gym under one roof. Book your slot online and get on court.</p>
+      <div class="cta"><a href="https://www.district.in/play/rapidacez-badminton-fitness-academy-formerly-known-as-kayns-rapidacez-badminton-fitness-academy-formerly-known-as-kayns-upperpally-slots-booking" target="_blank" rel="noopener" class="btn fill">BOOK A COURT</a><a href="tel:09949570989" class="btn">CALL NOW</a></div>
+    </div>
+    <div class="court" aria-hidden="true">
+      <svg viewBox="0 0 300 400"><rect class="fl" x="20" y="20" width="260" height="360" rx="4"/>
+        <g class="ln"><rect x="20" y="20" width="260" height="360"/><path d="M42 20v360M258 20v360M20 130h260M20 270h260M150 20v110M150 270v110"/></g>
+        <path d="M6 200h288" stroke="#ffe14d" stroke-width="3" stroke-dasharray="2 5" opacity=".8"/></svg>
+      <svg class="shuttle" viewBox="0 0 24 32" fill="currentColor"><path d="M12 32a4 4 0 0 1-4-4h8a4 4 0 0 1-4 4z"/><path d="M8 26L2 2l4 3 3-4 3 4 3-4 3 4 4-3-6 24z" opacity=".9"/></svg>
+    </div>
+  </div>
+</section>
+
+<section class="statbar" aria-label="RapidAcez at a glance">
+  <div class="wrap"><div class="stats">
+    <div class="stat"><b><span data-count="4.4" data-dec="1">4.4</span>★</b><span>Google rating</span></div>
+    <div class="stat"><b><span data-count="627">627</span></b><span>Google reviews</span></div>
+    <div class="stat"><b>Online</b><span>Court booking</span></div>
+  </div></div>
+</section>
+
+<section id="about">
+  <div class="wrap split">
+    <div class="photo rv" role="img" aria-label="Court illustration placeholder: replace with a photo of the courts">
+      <svg viewBox="0 0 400 500" fill="none" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><g stroke="#fff" stroke-opacity=".6" stroke-width="2.5"><rect x="60" y="80" width="280" height="340"/><path d="M60 250h280M80 80v340M320 80v340M60 160h280M60 340h280M200 80v80M200 340v80"/></g><circle cx="300" cy="120" r="9" fill="#ffe14d"/></svg>
+    </div>
+    <div>
+      <h2 class="rv">A serious place to play.</h2>
+      <p class="lead rv d1">RapidAcez Badminton &amp; Fitness Academy is a badminton and fitness facility in Upperpally, Hyderabad. Players mention good quality courts, spacious play areas, easy parking and a coaching team that helps every player grow.</p>
+      <ul class="ticks rv d1"><li>Good quality courts with room to move</li><li>Coaching for different ages and levels</li><li>Ample parking, as many reviewers note</li></ul>
+      <a href="https://www.district.in/play/rapidacez-badminton-fitness-academy-formerly-known-as-kayns-rapidacez-badminton-fitness-academy-formerly-known-as-kayns-upperpally-slots-booking" target="_blank" rel="noopener" class="btn fill rv d2">BOOK A COURT</a>
+    </div>
+  </div>
+</section>
+
+<section id="programs" class="alt">
+  <div class="wrap">
+    <h2 class="rv">Play. Train. Improve.</h2>
+    <div class="panels">
+      <article class="panel rv"><span class="num">01</span><div><h3>Court Play</h3><p>Book a court and play singles or doubles with friends, family or teammates.</p></div></article>
+      <article class="panel rv d1"><span class="num">02</span><div><h3>Badminton Coaching</h3><p>Structured coaching to build skill, footwork and confidence, from beginners to committed players.</p></div></article>
+      <article class="panel rv d2"><span class="num">03</span><div><h3>Fitness &amp; Warm-up</h3><p>Strength and conditioning support to keep you quick, strong and injury-ready for the game.</p></div></article>
+    </div>
+    <div class="book rv"><div><h3>Ready for a game?</h3><p>Check live slots and book your court online.</p></div><a href="https://www.district.in/play/rapidacez-badminton-fitness-academy-formerly-known-as-kayns-rapidacez-badminton-fitness-academy-formerly-known-as-kayns-upperpally-slots-booking" target="_blank" rel="noopener" class="btn fill">BOOK ONLINE</a></div>
+    <p class="fine">General offerings. Call the academy to confirm current coaching batches, timings and pricing.</p>
+  </div>
+</section>
+
+<section id="why">
+  <div class="wrap why-grid">
+    <div class="sticky"><h2 class="rv">Why RapidAcez?</h2><p class="lead rv d1">What players say, and what you can expect when you walk in.</p></div>
+    <div class="list">
+      <div class="item rv"><b>01</b><div><h3>Good quality courts</h3><p>Reviewers highlight the court quality and the spacious play area.</p></div></div>
+      <div class="item rv"><b>02</b><div><h3>Coaching that cares</h3><p>Parents and players praise a coaching team focused on helping each student reach their potential.</p></div></div>
+      <div class="item rv"><b>03</b><div><h3>Easy online booking</h3><p>Pick a slot and book your court from your phone.</p></div></div>
+      <div class="item rv"><b>04</b><div><h3>Parking made simple</h3><p>Several reviewers mention ample parking space.</p></div></div>
+      <div class="item rv"><b>05</b><div><h3>Find us easily</h3><p>Beside GPR Swimming Pool, Sri Sai Janachithanya Colony, AG Colony, Upperpally.</p></div></div>
+    </div>
+  </div>
+</section>
+
+<section class="big">
+  <div class="wrap">
+    <h2 class="rv">Every ace starts with a rally.</h2>
+    <h2 class="rv d1">Get on court.</h2>
+    <a href="https://www.district.in/play/rapidacez-badminton-fitness-academy-formerly-known-as-kayns-rapidacez-badminton-fitness-academy-formerly-known-as-kayns-upperpally-slots-booking" target="_blank" rel="noopener" class="btn fill rv d2">BOOK A COURT</a>
+  </div>
+</section>
+
+<section id="reviews" class="alt">
+  <div class="wrap">
+    <div class="rev-top">
+      <h2 class="rv">Players have their say.</h2>
+      <div class="rate"><b>4.4</b><span>627 Google reviews</span></div>
+    </div>
+    <div class="mason">
+      <article class="rev rv"><p>It a very good experience,great I will refer my friends</p><div class="who"><span class="av">R</span><span>raghuveer singh<small>3 months ago</small></span></div></article>
+      <article class="rev rv"><p>Spacious courts within budget</p><div class="who"><span class="av">S</span><span>Sk Majeed Zeeshan<small>Local Guide · 4 months ago</small></span></div></article>
+      <article class="rev rv"><p>Good badminton court. 6 wooden courts one of the best in city. World-class court in this part of Hyderabad. Ample car parking space available.</p><div class="who"><span class="av">A</span><span>anoop m<small>Local Guide · Edited 2 years ago</small></span></div></article>
+      <article class="rev rv"><p>Large area , Good quality courts with attached warm up gym .  Good coaching. Great people manging the facility . Ample Parking space .</p><div class="who"><span class="av">R</span><span>Rakesh Pai<small>2 years ago</small></span></div></article>
+      <article class="rev rv"><p>Very nice place it was fun playing there 400 rupees per hour can play singles doubles.</p><div class="who"><span class="av">M</span><span>Md Ishtiyaq<small>Local Guide · 6 years ago</small></span></div></article>
+      <article class="rev rv"><p>Very nice academy, total 11 courts, very professional training, …</p><div class="who"><span class="av">A</span><span>ANSHUL GARG<small>Local Guide · 7 years ago</small></span></div></article>
+      <article class="rev rv"><p>Excellent coaching provided to all age groups. High quality coaching team lead by Mr. Govadhan Reddy. Had been there with my son for admission and great admin team. Really appreciate their efforts to make every child successful.</p><div class="who"><span class="av">V</span><span>vanitha choontharu<small>Local Guide · 7 years ago</small></span></div></article>
+      <article class="rev rv"><p>Humble Mr Govardhan garu sir is committed to bring each student to his/her full potential. I went to many places for my sons admission but I am impressed with this. Thank you kaynes playing a good role to encourage this sport</p><div class="who"><span class="av">S</span><span>shashi kumar<small>7 years ago</small></span></div></article>
+      <article class="rev rv"><p>A private set up for shuttle badminton with five courts. Well constructed and maintained. Located at upparpally, pillar # 175 next to attapur. Ample parking available and free. Attached store for sport accessaries is a plus point.</p><div class="who"><span class="av">M</span><span>mani Chenugunta<small>Local Guide · Edited 8 years ago</small></span></div></article>
+    </div>
+    <p class="fine">Reviews shown as written on Google, most recent first. Some are several years old.</p>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="wrap">
+    <h2 class="rv">Find the court.</h2>
+    <div class="loc">
+      <div class="box rv">
+        <h3>RapidAcez Badminton &amp; Fitness Academy</h3>
+        <address class="addr">Pillar No 177, Road, beside GPR Swimming Pool,<br>Sri Sai Janachithanya Colony, AG Colony,<br>Upperpally, Telangana 500048</address>
+        <a class="ace" href="tel:09949570989" style="font-weight:700;font-size:1.25rem">CALL: 09949570989</a>
+        <div class="btns"><a class="btn fill" target="_blank" rel="noopener" href="https://maps.app.goo.gl/SWWMJZQsmYU1tWV78">GET DIRECTIONS</a><a class="btn" target="_blank" rel="noopener" href="https://www.district.in/play/rapidacez-badminton-fitness-academy-formerly-known-as-kayns-rapidacez-badminton-fitness-academy-formerly-known-as-kayns-upperpally-slots-booking">BOOK ONLINE</a></div>
+      </div>
+      <div class="map rv d1"><iframe title="Map showing RapidAcez Badminton and Fitness Academy in Upperpally" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps?q=RapidAcez+Badminton+and+Fitness+Academy+Upperpally+500048&output=embed"></iframe></div>
+    </div>
+  </div>
+</section>
+
+<section class="final">
+  <div class="wrap">
+    <h2 class="rv">Game on.</h2>
+    <p class="lead rv d1">Book a slot, bring your racket, and play your best.</p>
+    <div class="cta rv d2"><a href="https://www.district.in/play/rapidacez-badminton-fitness-academy-formerly-known-as-kayns-rapidacez-badminton-fitness-academy-formerly-known-as-kayns-upperpally-slots-booking" target="_blank" rel="noopener" class="btn fill">BOOK A COURT</a><a href="tel:09949570989" class="btn">CALL 09949570989</a></div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="fg">
+      <div><strong style="font:800 1.3rem var(--disp);color:var(--text)">RapidAcez</strong><p style="margin-top:.4rem">Badminton &amp; Fitness Academy<br>Formerly known as Kayns.<br>Upperpally, Hyderabad.</p>
+        <a class="soc" href="https://www.facebook.com/rapidacezbadminton" target="_blank" rel="noopener" aria-label="RapidAcez on Facebook"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M13.5 22v-8.2h2.8l.5-3.3h-3.3V8.4c0-.9.4-1.7 1.8-1.7h1.6V3.8S15.6 3.5 14.4 3.5c-2.5 0-4.2 1.5-4.2 4.3v2.7H7.4v3.3h2.8V22z"/></svg></a></div>
+      <div><h4>EXPLORE</h4><ul><li><a href="#home">Home</a></li><li><a href="#about">About</a></li><li><a href="#programs">Play &amp; Train</a></li><li><a href="#reviews">Reviews</a></li><li><a href="#contact">Contact</a></li></ul></div>
+      <div><h4>VISIT</h4><address>Pillar No 177, Road, beside GPR Swimming Pool, Sri Sai Janachithanya Colony, AG Colony, Upperpally, Telangana 500048</address><p style="margin-top:.6rem"><a href="tel:09949570989">09949570989</a></p></div>
+    </div>
+    <p class="copy">© 2026 RapidAcez Badminton &amp; Fitness Academy. All Rights Reserved.</p>
+  </div>
+</footer>
+
+<nav class="bar" aria-label="Quick actions">
+  <a class="btn fill" target="_blank" rel="noopener" href="https://www.district.in/play/rapidacez-badminton-fitness-academy-formerly-known-as-kayns-rapidacez-badminton-fitness-academy-formerly-known-as-kayns-upperpally-slots-booking">BOOK A COURT</a>
+  <a class="btn" href="tel:09949570989">CALL NOW</a>
+</nav>
+
+<script>
+(function(){
+  var d=document,hd=d.querySelector('header'),bg=d.querySelector('.burger'),menu=d.getElementById('menu');
+  var reduce=matchMedia('(prefers-reduced-motion:reduce)').matches;
+  function setMenu(o){bg.setAttribute('aria-expanded',o);menu.classList.toggle('open',o);d.body.style.overflow=o?'hidden':''}
+  bg.addEventListener('click',function(){setMenu(bg.getAttribute('aria-expanded')!=='true')});
+  menu.querySelectorAll('a').forEach(function(a){a.addEventListener('click',function(){setMenu(false)})});
+  d.addEventListener('keydown',function(e){if(e.key==='Escape')setMenu(false)});
+  addEventListener('scroll',function(){hd.classList.toggle('scrolled',scrollY>40)},{passive:true});
+  var links=menu.querySelectorAll('a:not(.btn)');
+  ['home','about','programs','why','reviews','contact'].forEach(function(id){
+    var s=d.getElementById(id);if(!s)return;
+    new IntersectionObserver(function(es){es.forEach(function(e){
+      if(e.isIntersecting)links.forEach(function(a){a.classList.toggle('active',a.getAttribute('href')==='#'+id)});
+    })},{rootMargin:'-45% 0px -50% 0px'}).observe(s);
+  });
+  var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}})},{threshold:.12});
+  d.querySelectorAll('.rv').forEach(function(el){io.observe(el)});
+  var co=new IntersectionObserver(function(es){es.forEach(function(e){
+    if(!e.isIntersecting)return;co.unobserve(e.target);
+    var el=e.target,to=parseFloat(el.dataset.count),dec=+el.dataset.dec||0;
+    if(reduce){el.textContent=to.toFixed(dec);return}
+    var t0=performance.now();
+    (function step(t){var p=Math.min((t-t0)/1400,1);el.textContent=(to*(1-Math.pow(1-p,3))).toFixed(dec);if(p<1)requestAnimationFrame(step)})(t0);
+  })},{threshold:.6});
+  d.querySelectorAll('[data-count]').forEach(function(el){co.observe(el)});
+})();
+</script>
+</body>
+</html>
